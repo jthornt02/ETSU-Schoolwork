@@ -1,6 +1,5 @@
 # ETSU-Schoolwork
-For Server Side Web Programming
-WEB API that displays plants from list of plants from Cincinnati Zoo
+For Server Side Web Programming - WEB API that displays plants from list of plants from Cincinnati Zoo
 
 ## Problem 1
   Used converter to convert json data from API into their attributes so that they could be easier to read and put into C# code.
