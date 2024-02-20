@@ -1,0 +1,43 @@
+﻿@page
+@using WebAPI
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    List<Plant> plants = (List<Plant>)ViewData["Plants"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <table>
+        <tr>
+            <th>Plant ID</th>
+            <th>Specimen ID</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Address</th>
+
+        </tr>
+        @{
+            foreach (Plant plant in plants)
+            {
+
+                <tr>
+                    <td>@plant.PlantId</td>
+                    <td>@plant.SpecimenId</td>
+                    <td>@plant.Lat</td>
+                    <td>@plant.Lng</td>
+                    <td>@plant.Address</td>
+                </tr>
+            }
+        }
+
+
+
+
+    </table>
+
+
+
+
+</div>

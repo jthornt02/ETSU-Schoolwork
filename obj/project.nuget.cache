@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DmTbKkdiVOTbkYxhSB1WlRMpsM+gPQuRytBDVgzYZz5x+MK0MdgYh6WxE0YpeR82A1sdloBGLDTK/ET9CEEUKg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jonat\\Desktop\\Server Side\\WebAPI\\WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonat\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
